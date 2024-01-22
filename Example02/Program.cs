@@ -30,12 +30,12 @@
     }         // NUMBERS:
               int number = 5; // int = integers only. positive and negative
 
-              double floatingPointNumber = 3.14; // for numbers with decimals (or integers, capable of storing both)
-                                                 // positive and negative
-                                                 // Camel Casing 
+    double floatingPointNumber = 3.14; // for numbers with decimals (or integers, capable of storing both)
+                                       // positive and negative
+                                       // Camel Casing
 
-              // BOOLEANS: 
-              bool trueOrFalse = false; // binary system. only true or false 
+    // BOOLEANS: 
+    bool trueOrFalse = false; // binary system. only true or false 
               bool trueOrFalse = true;
               
 }
