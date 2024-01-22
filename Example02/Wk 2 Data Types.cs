@@ -35,7 +35,7 @@
                                        // Camel Casing
 
     // BOOLEANS: 
-    bool trueOrFalse = false; // binary system. only true or false 
+    bool trueOrFalse = false; // binary system. only true or false
               bool trueOrFalse = true;
               
 }
