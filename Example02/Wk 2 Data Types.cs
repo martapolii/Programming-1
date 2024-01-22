@@ -1,4 +1,4 @@
-﻿namespace Example02
+﻿namespace Wk 2-Data Types
 {
     internal class Program
     {
