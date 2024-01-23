@@ -9,7 +9,7 @@ namespace Example05
         static void Main(string[] args)
         {
             /*
-             
+          
             Q: Write a console application that performs a mathematical operation of your choice between two user-provided numbers. 
 
             (Always display the result even if the exercise tells you not to. (Why would you use something that never displays the result?))
@@ -26,8 +26,6 @@ namespace Example05
             STEP 04: Displaying Results.
 
             */
-
-            	
 
 
             //STEP 01: Declaring variables. (use double bc it can handle more and variable type wasn't specified)
