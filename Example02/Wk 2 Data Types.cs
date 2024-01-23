@@ -37,5 +37,8 @@
     // BOOLEANS: 
     bool trueOrFalse = false; // binary system. only true or false
               bool trueOrFalse = true;
-              
+
+
+  // = comments. can also made code unrunable. 
+  /* Block comment. Can span multiple lines and before a line of code. */
 }
