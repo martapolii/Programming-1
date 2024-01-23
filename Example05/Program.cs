@@ -27,6 +27,21 @@ namespace Example05
 
             */
 
+            // =====================================================================================
+            // |     INPUT      |                   PROCESSING                    |     OUTPUT     |
+            // |================|=================================================|================|
+            // |                |                                                 |                |  
+            // | firstNumber    | 1. Collect value for firstNumber                | total          |  
+            // | secondNumber   | 2. Store input in firstNumber                   |                |  
+            // |                | 3. Collect value for secondNumber               |                |  
+            // |                | 4. Store input in secondNumber                  |                |  
+            // |                | 5. Calculate total per formula:                 |                |  
+            // |                |    total = firstNumber * secondNumber           |                |  
+            // |                | 6. Print total to console                       |                |  
+            // |                |                                                 |                |  
+            // |                |                                                 |                |  
+            // =====================================================================================
+
 
             //STEP 01: Declaring variables. (use double bc it can handle more and variable type wasn't specified)
             double firstNumber;
