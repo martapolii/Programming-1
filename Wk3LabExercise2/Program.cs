@@ -47,10 +47,11 @@
             Console.WriteLine("SIN: " + socialInsuranceNumber);
             Console.WriteLine("You worked " + numberOfHoursWorked + " hours at $" + hourlyPayRate + " per hour" + "\n");
 
-            Console.WriteLine("Gross pay: $" + grossPay);
-            Console.WriteLine("Federal Tax: $" + federalTax);
-            Console.WriteLine("Provincial Tax: $" + provincialTax + "\n");
-            Console.WriteLine("Net Pay: $" + netPay);
+            Console.WriteLine("Gross pay: {8:C}", grossPay);
+            Console.WriteLine("Federal Tax: {8:C}", federalTax);
+            Console.WriteLine("Provincial Tax: {8:C}", provincialTax);
+            Console.WriteLine("\n");
+            Console.WriteLine("Net Pay: {8:C}", netPay);
              
 
 

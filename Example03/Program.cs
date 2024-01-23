@@ -19,8 +19,7 @@
             // STRING -> CHAR 
 
                 //1. The Convert Class:
-                       char letter = "a";
-                 char letter = Convert.ToChar("a");
+                 char letter = Convert.ToChar("a") // or... 
 
                 //2. The Parse method: 
                  letter = char.Parse("a");
