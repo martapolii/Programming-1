@@ -18,7 +18,7 @@
 
             // STRING -> CHAR 
 
-                 //1. The Convert Class:
+                //1. The Convert Class:
                        char letter = "a";
                  char letter = Convert.ToChar("a");
 
