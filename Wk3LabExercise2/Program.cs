@@ -16,10 +16,10 @@
             double netPay;
 
             //STEP 02: Collect Inputs
-            Console.WriteLine("Enter your name: ");
+            Console.Write("Enter your name: ");
             name = Console.ReadLine();
 
-            Console.WriteLine("Enter your Social Insurance Number: ");
+            Console.Write("Enter your Social Insurance Number: ");
             socialInsuranceNumber = Console.ReadLine();
 
             Console.WriteLine("Enter your hourly pay: ");
@@ -46,13 +46,32 @@
             Console.WriteLine("Payroll Summary for " + name);
             Console.WriteLine("SIN: " + socialInsuranceNumber);
             Console.WriteLine("You worked " + numberOfHoursWorked + " hours at $" + hourlyPayRate + " per hour" + "\n");
-
-            Console.WriteLine("Gross pay: {8:C}", grossPay);
-            Console.WriteLine("Federal Tax: {8:C}", federalTax);
-            Console.WriteLine("Provincial Tax: {8:C}", provincialTax);
             Console.WriteLine("\n");
-            Console.WriteLine("Net Pay: {8:C}", netPay);
-             
+
+            Console.WriteLine("Gross Pay:                      $" + grossPay);
+            Console.WriteLine("Federal Tax:                    $" + federalTax);
+            Console.WriteLine("Provincial Tax:                 $" + provincialTax);
+            Console.WriteLine(String.Format("--------------------------------------"));
+            Console.WriteLine("\n");
+            Console.WriteLine("Net Pay:                        $" + netPay);
+
+
+            /* Last chunk of code wouldn't generate the table I wanted so I emailed the prof, and he offered these two solutions: 
+             * (neither worked - either terminal crashed after entering values or error popped up).
+             * 
+            *Console.WriteLine($"Gross Pay:{grossPay,8:C}");
+            *Console.WriteLine($"Federal Tax:{federalTax,8:C}");
+            *Console.WriteLine($"Provincial Tax:{provincialTax,8:C}");
+            *Console.WriteLine("\n");
+            *Console.WriteLine("Net Pay:{8:C}",netPay);
+            *
+            *Console.WriteLine("Gross Pay:{0,8:C}", grossPay);
+            *Console.WriteLine("Federal Tax:{0,8:C}", federalTax);
+            *Console.WriteLine("Provincial Tax:{0,8:C}", provincialTax);
+            *Console.WriteLine("\n");
+            *Console.WriteLine("Net Pay:{0,8:C}", netPay); 
+            *
+             */
 
 
 
