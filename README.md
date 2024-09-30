@@ -7,7 +7,7 @@ Key Skills Developed:
 - Working with data types, variables, and arrays to manage data.
 - Creating and using methods, including parameter passing and return values.
 - Designing simple classes and working with objects in C#.
-- 
+  
 Topics I Covered:
 - Programming Concepts and Algorithm Design
 - Variables and Data Types (Including Arrays)
